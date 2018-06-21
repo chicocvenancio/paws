@@ -87,6 +87,11 @@ jupyterhub:
         
         c.JupyterHub.authenticator_class = Auth
         c.JupyterHub.logo_file = '/srv/jupyterhub/paws-beta.svg'
+        c.JupyterHub.template_vars = {
+            'anouncement': ('this is a beta instalattion of PAWS, '
+                            'it should not be used directly except for '
+                            'development and bug testing.')
+                            
     extraEnv: 
       USER: tools.paws
     fsGid: 52771
