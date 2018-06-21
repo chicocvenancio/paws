@@ -88,10 +88,10 @@ jupyterhub:
         c.JupyterHub.authenticator_class = Auth
         c.JupyterHub.logo_file = '/srv/jupyterhub/paws-beta.svg'
         c.JupyterHub.template_vars = {
-            'anouncement': ('<span class="alert-danger"> This is a beta '
-                            'instalattion of PAWS, it should not be used '
-                            'directly except for development and bug testing.'
-                            '</span>')}
+            'announcement': ('<span class="alert-danger"> This is a beta '
+                             'instalattion of PAWS, it should not be used '
+                             'directly except for development and bug testing.'
+                             '</span>')}
                             
     extraEnv: 
       USER: tools.paws
