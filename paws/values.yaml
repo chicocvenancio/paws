@@ -79,7 +79,7 @@ jupyterhub:
                     },
                     {
                         'name': 'dumps_mnt',
-                        'mountPath': { 'path': '/mnt/nfs/dumps-labstore1006.wikimedia.org' }
+                        'mountPath': '/mnt/nfs/dumps-labstore1006.wikimedia.org'
                     }
                 ]
         
