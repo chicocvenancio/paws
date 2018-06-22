@@ -63,7 +63,6 @@ jupyterhub:
                         'name': 'dumps',
                         'hostPath': { 'path': '/public/dumps' }
                     },
-                    },
                     {
                         'name': 'dumps_mnt',
                         'hostPath': { 'path': '/mnt/nfs/dumps-labstore1006.wikimedia.org' }
