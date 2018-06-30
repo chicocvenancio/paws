@@ -31,7 +31,7 @@ jupyterhub:
     extraVolumes:
     - name: dumps
       hostPath:
-      - path: /public/dumps
+        path: /public/dumps
     extraVolumeMounts:
     - name: dumps
       mountPath: /public/dumps
